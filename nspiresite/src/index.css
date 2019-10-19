@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Exo|Vollkorn&display=swap');
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Vollkorn', serif;
+  background:url("/white_wall_hash.png");
+}
+h1,h2,h3,h4,h5,h6, .nav {
+font-family: 'Exo', sans-serif;
+}
+.HeroSection .jumbotron {
+  background-image: url("/nspireme_hero.jpg");
+  background-size: cover;
+  height:100vh;
+  position:relative;
+}
+  div#centered_hero {
+      position: absolute;
+      top: 45%;
+      -ms-transform: translateY(-45%);
+      transform: translateY(-45%);
+      margin-top:30px;
+      margin-left: 6vw;
+    }
+
+  #centered_hero h1 {font-size:2em;line-height:1.5em;color:#3d1342;font-weight:bold;}
+  #centered_hero h2 {font-size:1.5em;line-height:1.75em;color:#3d1342bd;}
+
+.nav .nav-link {color: #2f3660;}
+.nav a.btn-outline-info {color: #521a58;border-color: #521a58;}
+.nav a.btn-outline-info:hover {background-color: #612a62;color: #ffffff;}
+.picture_section.container .row {margin-top:50px;}
+.row img {max-width:100%;}
+.avatar_cases img {height:90px;width:90px;margin:10px;}
+.avatar_cases .user_case {background:#af98ad1f;border-radius:5px;}
+.avatar_cases .user_case {margin:10px;max-width:calc((100% / 4) - 20px) !important;}
+.avatar_cases .user_case img{margin:15px 20px 15px 0px;}
+.avatar_cases.container {margin-top:30px;margin-bottom:30px;}
+.avatar_cases.container h4 {text-align:center;}
+.email_signup {color:#fff;background:#5a5a74e6;text-align:center;}
+.email_signup button.btn, .email_signup a.btn.btn-info:active, a.btn.btn-info {
+    background: #ffa080;
+    border-color: #ce855e;
+    font-family: 'Exo', sans-serif;
+}
+.jumbotron.email_signup  {margin-bottom:0px !important;}
+footer {background:#3f2f46;color:#fff;padding-top:20px;}
+footer a,footer ul.nav li.nav-item a {color:#fff;}
+footer .nav-link {padding: .3rem .5rem;}
+footer .col-2 {font-size:1.5em;text-align:center;}
+
+
+
+@media(max-width:768px) {
+  .avatar_cases .user_case {margin:12px;max-width:calc((100% / 2) - 24px) !important;}
+  .picture_section.container .row img {margin-bottom:20px;}
+  div#centered_hero {  margin-left: 0vw;background:#ffffff87;}
+  .HeroSection .jumbotron {background-position:60%;}
+}
