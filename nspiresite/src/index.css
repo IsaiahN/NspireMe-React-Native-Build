@@ -55,6 +55,6 @@ footer .col-2 {font-size:1.5em;text-align:center;}
 @media(max-width:768px) {
   .avatar_cases .user_case {margin:12px;max-width:calc((100% / 2) - 24px) !important;}
   .picture_section.container .row img {margin-bottom:20px;}
-  div#centered_hero {  margin-left: 0vw;background:#ffffff87;}
+  div#centered_hero {  margin-left: 0vw;background:#ffffff87; max-width: 90vw;}
   .HeroSection .jumbotron {background-position:60%;}
 }
